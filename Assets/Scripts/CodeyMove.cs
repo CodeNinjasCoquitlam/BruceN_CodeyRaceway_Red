@@ -4,7 +4,7 @@ using UnityEngine;
 public class CodeyMove : MonoBehaviour
 {
     public float Speed = 15f;
-    Animator anim;
+    public Animator anim;
     public bool running = false;
     public bool canMove = true;
     public Vector3 move;
